@@ -14,47 +14,47 @@
     <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <Reference Include="0Harmony">
-      <HintPath>$(BepInExDirectory)/core/0Harmony.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\core\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(BepInExDirectory)/unhollowed/Assembly-CSharp.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>$(BepInExDirectory)/unhollowed/Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.UI.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>$(BepInExDirectory)/unhollowed/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(BepInExDirectory)/unhollowed/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>$(BepInExDirectory)/unhollowed/Il2Cppmscorlib.dll</HintPath>
+      <HintPath>$(BepInExDirectory)\unhollowed\Il2Cppmscorlib.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
